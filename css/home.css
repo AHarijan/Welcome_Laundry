@@ -6,8 +6,9 @@
     height: 100px;
     margin-right: 20px;
 }
-nav{
-    position: static;
+.cos-navbar{
+    position: fixed !important; 
+    width: 100%;
 }
 
 .background1 {
