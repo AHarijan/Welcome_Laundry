@@ -11,6 +11,7 @@
 }
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
 }
 nav{
     background: #022947;
@@ -289,11 +290,11 @@ nav{
     background-color: #4793AF;
 }
 .footh1{
-    width: 80vh;
+    width: 120vh;
     font-size: 20px;
 }
 .footh1 h1{
-    width: 80vh;
+    width: 120vh;
     font-size: 30px;
     color: white;
 }
@@ -320,10 +321,12 @@ nav{
 .content{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     width: 100%;
     padding-top: 5vh;
     padding-bottom: 10vh;
+    padding-right: 15vw;
+    padding-left: 18vw;
     background-image: linear-gradient(#4793afc0, #4793afc0), url('../Asset/Images/laundry-saloon-567951_1280.jpg'); 
     background-size: cover; 
     background-repeat: no-repeat;
